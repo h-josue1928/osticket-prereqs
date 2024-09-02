@@ -53,18 +53,43 @@ Step 2: Create a Windows 10 Pro Virtual Machine (VM)
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+Step 2: Create a Windows 10 Pro Virtual Machine (VM)
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+- Select the Resource group that was created
+- VM name: VM-osTicket
+- Select US East or US West region
+- For Availability options, select 'No infrastructure redundancy required'
+- For Security type select 'Standard'
+- Image: Windows 10 Pro
+- Size: 2 or 4 Virtual CPUs (vcpus)
+- Choose your username and password
+- Check the box for Licensing
+- Click Review + Create
+
+
+Step 3: Open Remote Desktop Connection App
+
+- Copy and paste the Public IP Address into the Remote Desktop Connection (Wait until the VM finished deploying)
+- Click 'Connect'
+- Log in with the credentials created during the virtual machine configuration process.
+- Select 'Yes' to connect to you VM
+
+
+
+Step 4: Install/Enable IIS in Windows with CGI and Common HTTP features
+
+- Right click on the "start/windows" icon, click run, and enter "control"
+- Click on 'Programs'
+- Click the blue hyperlink that says 'Turn Windows features on or off"
+- Select Internet Information Services (IIS) -> World Wide Web Services -> Application Development Features (click the plus sign to [X] CGI) -> Common HTTP Features (click the plus sign to [X] all.)
+- Click 'Ok'
+
+
+
+  Step 5: Open the Installation files page here -> (https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
+
+- Download and isntall PHP Manager for IIS
+- Download and install Rewrite Module
+- Download and install PHP 7.3.8
+- Download and install VC_redist.x86.exe.
+- Download and install MySQL 5.5.62
