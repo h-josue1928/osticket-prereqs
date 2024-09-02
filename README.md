@@ -93,3 +93,75 @@ Step 4: Install/Enable IIS in Windows with CGI and Common HTTP features
 - Download and install PHP 7.3.8
 - Download and install VC_redist.x86.exe.
 - Download and install MySQL 5.5.62
+
+
+Step 6: Open IIS as an Admin
+
+- Click start and type in IIS in the seach bar -> right click on IIS app and click 'Run as administrator'
+- Register PHP from within the IIS app
+- Click on PHP Manager
+- Select blue hyperlink that says 'Register new PHP version'
+- Click on PHP Manager -> Register new PHP version -> This PC -> PHP -> php-cgi -> open -> click 'Ok'
+- Go back to the home page in the IIS app and click "Restart"
+
+
+  Step 7: Download and install osTicket v1.15.8
+
+- When the osTicket file has downloaded, open the osTicket file
+- Once inside the folder, open another File Explorer (the yellow folder on the taskbar) and go to This PC -> Windows (C:) -> inetpub -> wwwroot
+- Once inside the wwwroot folder, drag the "upload" folder within the "wwwroot" folder
+- Right click the 'upload' witin the wwwroot folder and rename it "osTicket
+
+
+Step 8: Go back to IIS app
+
+- Click 'Restart'
+- Go to Sites (left margin) -> Default Website -> osTicket ->  click "Browse *:80" (blue hyperlink on in the right margin)
+- Webpage to osTicket should open
+
+
+Step 9: Enable extentions
+
+- Go back to IIS app -> Sites -> Default Website -> osTicket
+- Double click on PHP Manager
+- Click the blue hyperlink that says 'Enable or Disable an extension'
+- Enable (right click each to enable): php_imap.dll, php_intl.dll, and php_opcache.dll
+- Refresh osTicket webpage in order to review the enabled extentions
+
+  Step 10: Rename ost-sampleconfig.php
+
+- Go to the wwwroot folder in File Explorer
+- Click on osTicket -> include-> scroll to find 'ost-sampleconfig.php' and rename it 'ost-config.php' (simply remove the word 'sample')
+- Right click ost-config.php -> click Properties -> click Security (tab at the top) -> click Advanced -> click Disable inheritance -> click pop up hyperlink that says 'Remove all inherited permissions-> click Add -> Select Principle -> type 'Everyone' in the object name field -> click Ok -> click 'Full Control' -> click ok -> click Apply and then Ok
+
+
+Step 11: Continue Setting up Osticket (click 'Continue' at the bottom
+
+- Help Desk Name: Tammy Help Desk
+- Email: tammy@helper.com (Receives email from customers)
+- Name: Tammy
+- Last name: Hooker
+- Email address: tammy@gmail.com (can be any mail address)
+- Username: tammyh
+- Password: Choose your ownn
+- Download and install HeidiSQL
+- Open HeidiSQL will
+- Click 'New' at the bottom left,
+- Enter root password that was created when we downloaded MySQL
+- Connect to the session
+- Create a database called 'osTicket' in Heidi SQL -> right click where it says 'Unnamed' in bold -> Create New -> Database -> type 'osTicket' in the Name field
+- Continue on to the Database Settings on the osTicket webpage:
+  - MySQL Database: enter 'osTicket' (database we just created in HeidiSQL)
+  - MySQL Username: root
+  - MySQL Password: Password that was created when we downloaded MySQL
+  - Click 'Install Now!'
+
+
+Step 12: Clean up
+
+- Go to Files Explorer
+- Go to Windoows (C)-> inetpub -> wwwroot -> osTicket -> setup (right click and delete)
+- Set Permissions to 'Read' only: Go to Windoows (C)-> inetpub -> wwwroot -> osTicket -> include -> ost-config.php -> right click and go to Properties -> Security -> Advanced -> Double click 'Everyone' -> deselect 'Full control' , 'Modify' , and 'Write' -> click 'Ok' and Apply
+- Click on http://localhost/osTicket/scp under 'Your Staff Control Panel'
+- Enter log in credentials
+- Congrats, you have successfully logged into osTicket!
