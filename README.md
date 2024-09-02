@@ -37,6 +37,18 @@ Step 1: Create a resource group in Azure
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
+Step 2: Create a Windows 10 Pro Virtual Machine (VM)
+
+- Select the Resource group that was created
+- VM name: VM-osTicket
+- Select US East or US West region
+- For Availability options, select 'No infrastructure redundancy required'
+- For Security type select 'Standard'
+- Image: Windows 10 Pro
+- Size: 2 or 4 Virtual CPUs (vcpus)
+- Choose your username and password
+- Check the box for Licensing
+- Click Review + Create
 
 </p>
 <br />
