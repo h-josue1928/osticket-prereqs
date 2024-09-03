@@ -61,19 +61,6 @@ Step 2: Create a Windows 10 Pro Virtual Machine (VM)
 ![image](https://github.com/user-attachments/assets/1b15f4a4-e9e8-42a1-a716-0d307e8381e8)
 
 
-Step 2: Create a Windows 10 Pro Virtual Machine (VM)
-
-- Select the Resource group that was created
-- VM name: VM-osTicket
-- Select US East or US West region
-- For Availability options, select 'No infrastructure redundancy required'
-- For Security type select 'Standard'
-- Image: Windows 10 Pro
-- Size: 2 or 4 Virtual CPUs (vcpus)
-- Choose your username and password
-- Check the box for Licensing
-- Click Review + Create
-
 
 Step 3: Open Remote Desktop Connection App
 
@@ -81,6 +68,12 @@ Step 3: Open Remote Desktop Connection App
 - Click 'Connect'
 - Log in with the credentials created during the virtual machine configuration process.
 - Select 'Yes' to connect to you VM
+
+![image](https://github.com/user-attachments/assets/c6945131-8cf5-4b32-9a0c-14f6f001df24)
+
+![image](https://github.com/user-attachments/assets/51a29ce9-cb42-4ba7-bbde-9b9b428d7775)
+
+![image](https://github.com/user-attachments/assets/491439eb-158f-49dc-bb27-7aabed4f3a11)
 
 
 
