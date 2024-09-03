@@ -37,6 +37,11 @@ Step 1: Create a resource group in Azure
 
 ![image](https://github.com/user-attachments/assets/c0fbf5e9-08c0-4563-af7d-088b35f0c516)
 
+![image](https://github.com/user-attachments/assets/1d722509-d976-48f2-8ddf-660f128f78cc)
+
+![image](https://github.com/user-attachments/assets/1b15f4a4-e9e8-42a1-a716-0d307e8381e8)
+
+
 
 
 
