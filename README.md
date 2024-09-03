@@ -37,9 +37,7 @@ Step 1: Create a resource group in Azure
 
 ![image](https://github.com/user-attachments/assets/c0fbf5e9-08c0-4563-af7d-088b35f0c516)
 
-![image](https://github.com/user-attachments/assets/1d722509-d976-48f2-8ddf-660f128f78cc)
 
-![image](https://github.com/user-attachments/assets/1b15f4a4-e9e8-42a1-a716-0d307e8381e8)
 
 
 
@@ -59,6 +57,8 @@ Step 2: Create a Windows 10 Pro Virtual Machine (VM)
 - Click Review + Create
 
 ![image](https://github.com/user-attachments/assets/ab380386-7dc9-4f05-b695-c31df4d3343c)
+![image](https://github.com/user-attachments/assets/1d722509-d976-48f2-8ddf-660f128f78cc)
+![image](https://github.com/user-attachments/assets/1b15f4a4-e9e8-42a1-a716-0d307e8381e8)
 
 
 Step 2: Create a Windows 10 Pro Virtual Machine (VM)
