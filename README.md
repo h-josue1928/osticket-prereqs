@@ -35,7 +35,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 Step 1: Create a resource group in Azure
 
 
-<img src="[image](https://github.com/user-attachments/assets/b0615d0a-9e34-4349-babc-b91a1e83d689)" alt="osTicket logo"/>
+<img src="![image](https://github.com/user-attachments/assets/879b415f-efb4-4514-a3b2-58bf0f64a8ee)
+"/>
 
 
 
