@@ -186,7 +186,7 @@ Step 11: Continue Setting up Osticket (click 'Continue' at the bottom
 - Name: 
 - Last name: 
 - Email address: (can be any mail address)
-- Username: t
+- Username: 
 - Password: Choose your ownn
 - Download and install HeidiSQL
 - Open HeidiSQL will
