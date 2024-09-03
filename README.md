@@ -53,8 +53,8 @@ Step 2: Create a Windows 10 Pro Virtual Machine (VM)
 - Check the box for Licensing
 - Click Review + Create
 
-</p>
-<br />
+![image](https://github.com/user-attachments/assets/ab380386-7dc9-4f05-b695-c31df4d3343c)
+
 
 Step 2: Create a Windows 10 Pro Virtual Machine (VM)
 
