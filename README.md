@@ -86,6 +86,11 @@ Step 4: Install/Enable IIS in Windows with CGI and Common HTTP features
 - Click 'Ok'
 
 
+![image](https://github.com/user-attachments/assets/6fb501ad-eb14-41c9-95e7-699db5f00329)
+
+
+
+
 
   Step 5: Open the Installation files page here -> (https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
 
@@ -94,6 +99,17 @@ Step 4: Install/Enable IIS in Windows with CGI and Common HTTP features
 - Download and install PHP 7.3.8
 - Download and install VC_redist.x86.exe.
 - Download and install MySQL 5.5.62
+
+
+![image](https://github.com/user-attachments/assets/bf771f7b-1c93-47fa-9477-4106358e217f)
+
+Step 5.1 When PHP 7.3.8 is finished downloading, create a folder on Windows (C:) and name it 'PHP'-> right click the PHP 7.3.8 file -> Extract all -> Browse -> This PC -> Windows (C:) -> PHP -> Select Folder -> Extract
+
+![image](https://github.com/user-attachments/assets/b4a54e57-57df-4f32-bcd8-f7fa0de8d38f)
+
+Step 5.2 When downloading MySQL, choose 'Typical' as your set up type -> continue installation and set up credentials -> select 'Standard Configuration' -> select next -> choose your password (the username will automatically be 'root') -> Execute and finish
+
+![image](https://github.com/user-attachments/assets/8579f270-94be-498a-967f-7e0f29678324)
 
 
 Step 6: Open IIS as an Admin
