@@ -121,6 +121,13 @@ Step 6: Open IIS as an Admin
 - Click on PHP Manager -> Register new PHP version -> This PC -> PHP -> php-cgi -> open -> click 'Ok'
 - Go back to the home page in the IIS app and click "Restart"
 
+![image](https://github.com/user-attachments/assets/62f7710c-f935-42c7-a6fa-d898e7c4353e)
+
+![image](https://github.com/user-attachments/assets/ca4e63a2-0553-4e80-b880-958306572a0a)
+
+![image](https://github.com/user-attachments/assets/57a01d13-7e7e-4fc1-8c35-33a75ba3d67d)
+
+
 
   Step 7: Download and install osTicket v1.15.8
 
@@ -129,12 +136,19 @@ Step 6: Open IIS as an Admin
 - Once inside the wwwroot folder, drag the "upload" folder within the "wwwroot" folder
 - Right click the 'upload' witin the wwwroot folder and rename it "osTicket
 
+![image](https://github.com/user-attachments/assets/1c43f281-89c0-4782-a935-d915e9fbbb19)
+
 
 Step 8: Go back to IIS app
 
 - Click 'Restart'
 - Go to Sites (left margin) -> Default Website -> osTicket ->  click "Browse *:80" (blue hyperlink on in the right margin)
 - Webpage to osTicket should open
+
+![image](https://github.com/user-attachments/assets/f8565fcd-2706-4460-9702-7a13be725590)
+
+![image](https://github.com/user-attachments/assets/0893942f-3206-48f9-a4a7-a52488aa02ad)
+
 
 
 Step 9: Enable extentions
@@ -145,12 +159,25 @@ Step 9: Enable extentions
 - Enable (right click each to enable): php_imap.dll, php_intl.dll, and php_opcache.dll
 - Refresh osTicket webpage in order to review the enabled extentions
 
+![image](https://github.com/user-attachments/assets/99f090fd-435f-4e82-a05e-20867f78a0d7)
+
+![image](https://github.com/user-attachments/assets/5f284ebc-bf08-499f-b6eb-2dca5c515fb3)
+
+![image](https://github.com/user-attachments/assets/8d42182a-9269-4d07-80a0-b0983b067cdb)
+
+![image](https://github.com/user-attachments/assets/c2aab79e-d149-4a3b-af58-72856e862550)
+
+
+
+
+
   Step 10: Rename ost-sampleconfig.php
 
 - Go to the wwwroot folder in File Explorer
 - Click on osTicket -> include-> scroll to find 'ost-sampleconfig.php' and rename it 'ost-config.php' (simply remove the word 'sample')
 - Right click ost-config.php -> click Properties -> click Security (tab at the top) -> click Advanced -> click Disable inheritance -> click pop up hyperlink that says 'Remove all inherited permissions-> click Add -> Select Principle -> type 'Everyone' in the object name field -> click Ok -> click 'Full Control' -> click ok -> click Apply and then Ok
 
+![image](https://github.com/user-attachments/assets/c6f2552a-dbf8-4305-a59c-516b5efcd512)
 
 Step 11: Continue Setting up Osticket (click 'Continue' at the bottom
 
@@ -173,6 +200,11 @@ Step 11: Continue Setting up Osticket (click 'Continue' at the bottom
   - MySQL Password: Password that was created when we downloaded MySQL
   - Click 'Install Now!'
 
+ ![image](https://github.com/user-attachments/assets/e55685cd-91ce-4794-984a-61236ec2e306)
+
+![image](https://github.com/user-attachments/assets/80626ecf-5093-4634-80a6-397d06878011)
+
+![image](https://github.com/user-attachments/assets/41a36599-df2e-4d3b-a154-6349660e2f0c)
 
 Step 12: Clean up
 
