@@ -181,12 +181,12 @@ Step 9: Enable extentions
 
 Step 11: Continue Setting up Osticket (click 'Continue' at the bottom
 
-- Help Desk Name: Tammy Help Desk
-- Email: tammy@helper.com (Receives email from customers)
-- Name: Tammy
-- Last name: Hooker
-- Email address: tammy@gmail.com (can be any mail address)
-- Username: tammyh
+- Help Desk Name: 
+- Email: (Receives email from customers)
+- Name: 
+- Last name: 
+- Email address: (can be any mail address)
+- Username: t
 - Password: Choose your ownn
 - Download and install HeidiSQL
 - Open HeidiSQL will
