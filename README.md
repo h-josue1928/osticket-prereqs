@@ -34,7 +34,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 Step 1: Create a resource group in Azure
 <p>
-<img src="<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/> height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="<![image](https://github.com/user-attachments/assets/e062e5df-8c0f-4000-87c0-fcf9d9bc898d)
+" alt="osTicket logo"/> height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 2: Create a Windows 10 Pro Virtual Machine (VM)
