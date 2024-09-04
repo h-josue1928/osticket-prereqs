@@ -200,6 +200,8 @@ Step 11: Continue Setting up Osticket (click 'Continue' at the bottom
   - MySQL Password: Password that was created when we downloaded MySQL
   - Click 'Install Now!'
 
+![image](https://github.com/user-attachments/assets/8acceba1-287d-4ec2-8f4a-f3006efe5765)
+
  ![image](https://github.com/user-attachments/assets/e55685cd-91ce-4794-984a-61236ec2e306)
 
 ![image](https://github.com/user-attachments/assets/80626ecf-5093-4634-80a6-397d06878011)
